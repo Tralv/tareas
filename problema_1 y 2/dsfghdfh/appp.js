@@ -1,6 +1,8 @@
 var val = document.getElementById('titulo');
  val.innerHTML = '<b>Hola</b> Mundo';
 
-document.querySelector(".row"').style.padding = '20px';
-document.querySelector(".roredw"').style.color = 'red';
+val=document.querySelector(".row");
+val.style.padding = '20px';
+val=document.querySelector(".red");
+val.style.color = 'red';
 console.log(val);
